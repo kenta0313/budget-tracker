@@ -21,11 +21,11 @@ interface ContextType  {
 }
 
 const initialState = {
-	budget: 2000,
+	budget: 20000,
 	expenses: [
-		{ id: 12, name: 'shopping', cost: 40 },
-		{ id: 13, name: 'holiday', cost: 400 },
-		{ id: 14, name: 'car service', cost: 50 },
+		{ id: 12, name: '買い物', cost: 40 },
+		{ id: 13, name: '遊び', cost: 400 },
+		{ id: 14, name: '車', cost: 500 },
 	],
 };
 
